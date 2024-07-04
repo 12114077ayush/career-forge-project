@@ -1,0 +1,41 @@
+.aboutwrapper {
+    // height: calc(100vh - 70px);
+    overflow: hidden;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .aboutimgswrapper {
+        margin-top: 12px;
+        margin-bottom: 32px;
+    }
+
+    .maintextbox {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 100px;
+
+        .firstline {
+            color: #898121;
+            font-size: 25px;
+            margin-left: 3px;
+            margin-bottom: 10px;
+        }
+
+        .firsthead {
+            color: #898121;
+            font-size: 58px;
+        }
+
+        .secondline {
+            color: #898121;
+            font-size: 20px;
+            margin-top: 35px;
+            margin-left: 3px;
+            margin-bottom: 30px;
+            line-height: 33px;
+        }
+    }
+}

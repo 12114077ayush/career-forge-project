@@ -1,0 +1,49 @@
+.Status {
+
+    margin: 40px 74px;
+    background-color: #d1cc925c;
+
+    // background-image: url('/src/assets/status.png');
+
+    .statuswrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 45px 45px;
+        width: 100%;
+        background-color: #ffffff78;
+
+        .statusform {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // border: none;
+
+            label {
+                color: #898121;
+                font-size: 34px;
+                margin-bottom: 30px;
+                margin-top: 10px;
+            }
+
+            input {
+                color: #898121;
+                height: 40px;
+                width: 200px;
+                padding: 7px;
+            }
+
+            button {
+                margin-left: 20px;
+                height: 40px;
+                width: 100px;
+                border-radius: 7px;
+                background-color: #898121;
+                color: #F7F1E5;
+                border: none;
+            }
+
+            margin-bottom: 15px;
+        }
+    }
+}
