@@ -8,7 +8,7 @@ function Homepage() {
         <div className="home">
             <div className="homewrapper">
                 <div className="homeimagewrap">
-                    <img src="/src/assets/homebg.jpg" className="carrer" alt="" />
+                    <img src="src/assets/homebg.jpg" className="carrer" alt="" />
                 </div>
                 <motion.div className="textbox" >
                     <motion.div className="text" initial={{ opacity: 0, y: 30 }}
