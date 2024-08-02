@@ -5,6 +5,8 @@ import Carousel from "../carousel/Carousel";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import ChatModal from "../../chatbot/Chatmodal.jsx";
+import homebg from "../../assets/homebg.jpg";
+import botimg from "../../assets/bot.png";
 function Homepage() {
   const [isChatOpen, setIsChatOpen] = useState(false);
 
@@ -15,7 +17,7 @@ function Homepage() {
     <div className="home">
       <div className="homewrapper">
         <div className="homeimagewrap">
-          <img src="src/assets/homebg.jpg" className="carrer" alt="" />
+          <img src={homebg} className="carrer" alt="" />
         </div>
         <motion.div className="textbox">
           <motion.div
@@ -54,7 +56,7 @@ function Homepage() {
       </motion.div>
       <img
         className="botavatar"
-        src="src/assets/bot.png"
+        src={botimg}
         alt="Chat Icon"
         onClick={toggleChat}
       />
