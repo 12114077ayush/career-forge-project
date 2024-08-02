@@ -2,6 +2,7 @@ import "./Aboutus.scss";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import ChatModal from "../../chatbot/Chatmodal.jsx";
+import botimg from "../../assets/bot.png";
 function Aboutus() {
   const [isChatOpen, setIsChatOpen] = useState(false);
 
@@ -55,7 +56,7 @@ function Aboutus() {
         </motion.div>
         <img
           className="botavatar"
-          src="/src/assets/bot.png"
+          src={botimg}
           alt="Chat Icon"
           onClick={toggleChat}
         />
