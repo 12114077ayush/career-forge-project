@@ -1,242 +1,237 @@
 // 'https://img.freepik.com/premium-photo/blank-resume-form-computer-table_151013-45072.jpg?w=900'
 .services {
+  .serviceswrapper {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    .firstgrp {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1690px;
 
-    .serviceswrapper {
-        height: calc(100vh - 70px);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+      .resumebuilder {
+        margin: 10px 91px;
+        margin-left: 10px;
+        padding: 10px 60px;
+        -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        width: 552px;
+        height: 415px;
+        background-image: url("/src/assets/resume.jpg.png");
 
-        .firstgrp {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 1690px;
+        .resumetext {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 10px;
+          padding: 35px 10px;
+          // align-items: center;
+          // justify-content: center;
+          color: #898121;
 
-            .resumebuilder {
-                margin: 10px 91px;
-                margin-left: 10px;
-                padding: 10px 60px;
-                -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                width: 552px;
-                height: 415px;
-                background-image: url('/src/assets/resume.jpg.png');
+          p {
+            margin-top: 10px;
+            line-height: 25px;
+          }
 
-                .resumetext {
-                    display: flex;
-                    flex-direction: column;
-                    margin: 10px 10px;
-                    padding: 35px 10px;
-                    // align-items: center;
-                    // justify-content: center; 
-                    color: #898121;
+          h1 {
+            font-weight: 600;
+            font-size: 30px;
+          }
 
-                    p {
-                        margin-top: 10px;
-                        line-height: 25px;
-
-                    }
-
-                    h1 {
-                        font-weight: 600;
-                        font-size: 30px;
-                    }
-
-                    .resumebtn {
-                        height: 40px;
-                        width: 127px;
-                        border: none;
-                        background-color: #898121;
-                        color: #F7F1E5;
-                        margin: 10px 133px;
-                        cursor: pointer;
-                    }
-                }
-            }
-
-            .placementstats {
-                margin: 10px 15px;
-                padding: 10px 60px;
-                -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                background-image: url(/src/assets/stats.png);
-                object-fit: cover;
-                width: 552px;
-                height: 415px;
-
-                .palcementtext {
-                    display: flex;
-                    flex-direction: column;
-                    margin: 10px 10px;
-                    padding: 35px 10px;
-                    // align-items: center;
-                    // justify-content: center; 
-                    color: #898121;
-
-                    p {
-                        margin-top: 10px;
-                        line-height: 25px;
-
-                    }
-
-                    h1 {
-                        font-weight: 600;
-                        font-size: 30px;
-                    }
-
-                    .placementbtn {
-                        height: 40px;
-                        width: 127px;
-                        border: none;
-                        background-color: #898121;
-                        color: #F7F1E5;
-                        margin: 16px 133px;
-                        cursor: pointer;
-                        scroll-behavior: smooth;
-                    }
-                }
-            }
-
+          .resumebtn {
+            height: 40px;
+            width: 127px;
+            border: none;
+            background-color: #898121;
+            color: #f7f1e5;
+            margin: 10px 133px;
+            cursor: pointer;
+          }
         }
+      }
 
-        .secondgrp {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 45px;
+      .placementstats {
+        margin: 10px 15px;
+        padding: 10px 60px;
+        -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        background-image: url(/src/assets/stats.png);
+        object-fit: cover;
+        width: 552px;
+        height: 415px;
 
-            .careerguide {
-                margin: 10px 91px;
-                margin-left: 10px;
-                padding: 10px 60px;
-                -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                width: 552px;
-                height: 415px;
-                background-image: url('/src/assets/carrer.png');
+        .palcementtext {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 10px;
+          padding: 35px 10px;
+          // align-items: center;
+          // justify-content: center;
+          color: #898121;
 
-                .careerguidetext {
-                    display: flex;
-                    flex-direction: column;
-                    margin: 10px 10px;
-                    padding: 35px 10px;
-                    // align-items: center;
-                    // justify-content: center; 
-                    color: #898121;
+          p {
+            margin-top: 10px;
+            line-height: 25px;
+          }
 
-                    h1 {
-                        font-weight: 600;
-                        font-size: 30px;
-                    }
+          h1 {
+            font-weight: 600;
+            font-size: 30px;
+          }
 
-                    p {
-                        margin-top: 10px;
-                        line-height: 25px;
-
-                    }
-
-                    .roadmapbtns {
-                        display: flex;
-                        align-items: center;
-
-                        .careerbtn {
-                            height: 40px;
-                            width: 127px;
-                            border: none;
-                            background-color: #898121;
-                            color: #F7F1E5;
-                            margin: 9px 6px;
-                            cursor: pointer;
-                        }
-                    }
-
-                }
-            }
-
-            .interview {
-                margin: 10px 15px;
-                padding: 10px 60px;
-                -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
-                background-image: url(/src/assets/interview.png);
-                object-fit: cover;
-                width: 552px;
-                height: 415px;
-
-                .interviewtext {
-                    display: flex;
-                    flex-direction: column;
-                    margin: 10px 10px;
-                    padding: 35px 10px;
-                    // align-items: center;
-                    // justify-content: center; 
-                    color: #898121;
-
-                    h1 {
-                        font-weight: 600;
-                        font-size: 30px;
-                    }
-
-                    p {
-                        margin-top: 10px;
-                        line-height: 25px;
-
-                    }
-
-                    .interviewbtn {
-                        height: 40px;
-                        width: 127px;
-                        border: none;
-                        background-color: #898121;
-                        color: #F7F1E5;
-                        margin: 34px 133px;
-                        margin: 33px 133px;
-                        cursor: pointer;
-                    }
-                }
-            }
-
+          .placementbtn {
+            height: 40px;
+            width: 127px;
+            border: none;
+            background-color: #898121;
+            color: #f7f1e5;
+            margin: 16px 133px;
+            cursor: pointer;
+            scroll-behavior: smooth;
+          }
         }
-
-        .interviewquerywrapper {
-            background-color: rgba(209, 204, 146, 0.3607843137);
-            min-height: 430px;
-            width: 1212px;
-            margin: 10px 82px;
-            margin-left: 80px;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-
-            .interviewhead {
-                margin-top: 20px;
-                font-size: 34px;
-                color: #898121;
-                font-weight: 600;
-            }
-
-            .questions {
-                color: #898121;
-                margin-top: 40px;
-
-                summary {
-                    font-size: 20px;
-                }
-
-                details {
-                    margin-left: 40px;
-                    margin-bottom: 15px;
-                    margin-right: 12px;
-                    padding-right: 10px;
-                }
-            }
-        }
+      }
     }
 
+    .secondgrp {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 45px;
+
+      .careerguide {
+        margin: 10px 91px;
+        margin-left: 10px;
+        padding: 10px 60px;
+        -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        width: 552px;
+        height: 415px;
+        background-image: url("/src/assets/carrer.png");
+
+        .careerguidetext {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 10px;
+          padding: 35px 10px;
+          // align-items: center;
+          // justify-content: center;
+          color: #898121;
+
+          h1 {
+            font-weight: 600;
+            font-size: 30px;
+          }
+
+          p {
+            margin-top: 10px;
+            line-height: 25px;
+          }
+
+          .roadmapbtns {
+            display: flex;
+            align-items: center;
+
+            .careerbtn {
+              height: 40px;
+              width: 127px;
+              border: none;
+              background-color: #898121;
+              color: #f7f1e5;
+              margin: 9px 6px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .interview {
+        margin: 10px 15px;
+        padding: 10px 60px;
+        -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+        background-image: url(/src/assets/interview.png);
+        object-fit: cover;
+        width: 552px;
+        height: 415px;
+
+        .interviewtext {
+          display: flex;
+          flex-direction: column;
+          margin: 10px 10px;
+          padding: 35px 10px;
+          // align-items: center;
+          // justify-content: center;
+          color: #898121;
+
+          h1 {
+            font-weight: 600;
+            font-size: 30px;
+          }
+
+          p {
+            margin-top: 10px;
+            line-height: 25px;
+          }
+
+          .interviewbtn {
+            height: 40px;
+            width: 127px;
+            border: none;
+            background-color: #898121;
+            color: #f7f1e5;
+            margin: 34px 133px;
+            margin: 33px 133px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .interviewquery {
+      .interviewquerywrapper {
+        background-color: rgba(209, 204, 146, 0.3607843137);
+        height: 430px;
+        width: 1212px;
+        margin: 10px 82px;
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .interviewhead {
+          margin-top: 20px;
+          font-size: 34px;
+          color: #898121;
+          font-weight: 600;
+        }
+
+        .questions {
+          color: #898121;
+          margin-top: 40px;
+          overflow-y: scroll;
+
+          summary {
+            font-size: 20px;
+          }
+
+          details {
+            margin-left: 40px;
+            margin-bottom: 15px;
+            margin-right: 12px;
+            padding-right: 10px;
+          }
+        }
+        .questions::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    }
+  }
 }

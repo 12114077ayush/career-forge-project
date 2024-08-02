@@ -31,7 +31,10 @@ export const Userdata = [
                 "label": "PIE",
                 "value": 0
             },
-        ]
+        ],
+         AveragePackage:0,
+        MedianPackage:0,
+        LowestPackage:0,
     },
     {
         id: 1,
@@ -65,7 +68,10 @@ export const Userdata = [
                 "label": "PIE",
                 "value": 67.07
             },
-        ]
+        ],
+        AveragePackage:10.60,
+        MedianPackage:9,
+        LowestPackage:4,
     },
     {
         id: 2,
@@ -99,7 +105,10 @@ export const Userdata = [
                 'value': 89.61,
                 'label': 'PIE'
             },
-        ]
+        ],
+        AveragePackage:10.44,
+        MedianPackage:8.21,
+        LowestPackage:3.53,
     },
     {
         id: 3,
@@ -133,6 +142,9 @@ export const Userdata = [
                 'value': 42.86,
                 'label': 'PIE'
             },
-        ]
+        ],
+         AveragePackage:7,
+        MedianPackage:7.59,
+        LowestPackage:3,
     }
 ]
