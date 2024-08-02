@@ -15,6 +15,8 @@ import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css";
 const genAI = new GoogleGenerativeAI(import.meta.env.VITE_API_KEY);
 
 const Chatbot = () => {
+  console.log(import.meta.env.VITE_API_KEY);
+
   const [typing, setTyping] = useState(false);
   const [messages, setMessages] = useState([
     {
