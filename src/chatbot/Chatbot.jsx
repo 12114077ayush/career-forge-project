@@ -12,7 +12,8 @@ import {
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import "@chatscope/chat-ui-kit-styles/dist/default/styles.min.css";
 
-const genAI = new GoogleGenerativeAI(import.meta.env.VITE_API_KEY);
+const VITE_API_KEY = "AIzaSyDafLklWkZ_ - Rmw6AE6ec7SLNJmh - k2maM";
+const genAI = new GoogleGenerativeAI(VITE_API_KEY);
 
 const Chatbot = () => {
   console.log(import.meta.env.VITE_API_KEY);
