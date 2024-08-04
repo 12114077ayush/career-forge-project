@@ -5,16 +5,7 @@ import { createContext, useState, useContext } from "react";
 import { account } from "../../appwrite/Appwrite";
 import { ID } from "appwrite";
 import { motion } from "framer-motion";
-import { Scale } from "chart.js";
-
-const blinkVariants = {
-  blink: {
-    scale: 1.1,
-    transition: {
-      yoyo: Infinity,
-    },
-  },
-};
+// import { Scale } from "chart.js";
 
 export const Authcontext = createContext();
 
@@ -88,6 +79,8 @@ export const Authprovider = ({ children }) => {
 
   const contextdata = {
     user,
+    loading,
+    setloading,
     loginUser,
     logoutUser,
     registerUser,
