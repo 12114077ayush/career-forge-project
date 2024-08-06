@@ -63,6 +63,8 @@ const Chatbot = () => {
         "We are dedicated to helping you build your career. Visit the 'About Us' section to learn more.",
       "contact us":
         "You can reach out to us via the 'Contact Us' section for any inquiries or support.",
+      service:
+        "Career Forge provides the following services: Resume Builder, Placement Statistics, Career Guide and Interview Probes",
     };
 
     for (const [key, response] of Object.entries(predefinedResponses)) {

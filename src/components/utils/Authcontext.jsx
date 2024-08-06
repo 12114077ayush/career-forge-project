@@ -63,6 +63,7 @@ export const Authprovider = ({ children }) => {
         }
       }
     } catch (error) {
+      // alert(error);
       console.log(error);
     }
     setloading(false);
