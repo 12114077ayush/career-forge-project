@@ -10,8 +10,10 @@ import Login from "./components/loginandsignup/Login";
 import Signup from "./components/loginandsignup/Signup";
 import Protectedroute from "./components/utils/Protectedroute";
 import { Authprovider } from "./components/utils/index";
-// import ProfilePage from "./components/Profile/Profile";
 import Profile from "./components/Profile/Profile";
+import JobBoard from "./components/JobBoard/JobBoard";
+import JobDetail from "./components/JobBoard/JobDetails";
+
 function App() {
   return (
     <Router>
@@ -25,6 +27,8 @@ function App() {
               <Route path="about" element={<Aboutus />} />
               <Route path="contact" element={<Contactus />} />
               <Route path="services" element={<Services />} />
+              <Route path="/jobs/:jobId" element={<JobDetail />} />
+              <Route path="/jobs" element={<JobBoard />} />
               <Route path="profile" element={<Profile />} />
             </Route>
           </Route>

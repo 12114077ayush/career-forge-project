@@ -68,6 +68,20 @@ function Navbar() {
                 Services
               </NavLink>
             </li>
+            <li className="listitem">
+              <NavLink
+                to="jobs"
+                className={({ isActive }) =>
+                  ` ${
+                    isActive
+                      ? `bg-inactive rounded-2xl border-none text-active p-2`
+                      : `text-inactive`
+                  } mr-[20px] p-[3px] text-[20px] `
+                }
+              >
+                Job Board
+              </NavLink>
+            </li>
           </ul>
         </div>
         <div className="">
